@@ -1,12 +1,7 @@
-const HomePage = () => {
+export default function HomePage() {
   return (
     <div>
-      <button className="btn btn-neutral">Neutral</button>
-      <button className="btn btn-primary">Primary</button>
-      <button className="btn btn-primary">Primary</button>
-      <button className="btn btn-warning">Warning</button>
+      <h1>Home Page</h1>
     </div>
   );
-};
-
-export default HomePage;
+}
